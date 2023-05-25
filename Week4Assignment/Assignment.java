@@ -29,7 +29,11 @@ public class Assignment {
         }
         //set the last element of newAges to the new age (newAge). 
         newAges[newAges.length - 1] = newAge;
-
+        
+        for(int ele: newAges) {
+        	System.out.println(ele);
+        }
+        
         // Subtract the value of the first element from the last element again
         int newSubtractionResult = newAges[newAges.length - 1] - newAges[0];
         System.out.println("New of Subtraction is: " + newSubtractionResult);
@@ -111,7 +115,7 @@ public class Assignment {
             //7.	Write a method that takes a String, word, and an int, n, as arguments and returns the word concatenated to itself n number of times. 
             //(i.e. if I pass in “Hello” and 3, I expect the method to return “HelloHelloHello”).
             System.out.println(concatenateWordsNTime("Hello", 3));
-            System.out.println("......................................");
+            System.out.println("Q7.....................................");
 
             //8.	Write a method that takes two Strings, firstName and lastName, and returns a full name 
             //(the full name should be the first and the last name as a String separated by a space).
@@ -127,7 +131,7 @@ public class Assignment {
             double[] arryOfNumbers = {3.5, 4.8, 2.2, 6.6, 8.1};
             double avgOfElements = calculateAverage(arryOfNumbers);
             System.out.println("Average of elements in arr : " + avgOfElements);
-            System.out.println("......................................");
+            System.out.println("Q10.....................................");
 
             
             //11.	Write a method that takes two arrays of double and returns true if the average of the elements in 
@@ -140,6 +144,7 @@ public class Assignment {
             //12.	Write a method called willBuyDrink that takes a boolean isHotOutside, and a double moneyInPocket, 
             //and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
             System.out.println(willBuyDrink(false, 11.0));
+            System.out.println("Q12..................................");
             
             //13.	Create a method of your own that solves a problem. In comments, write what the method does and why you created it.
             /*
